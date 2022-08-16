@@ -1,0 +1,23 @@
+{
+  "name": "jin",
+  "version": "1.0.0",
+  "description": "vue scaffold",
+  "repository": "https://github.com/Developer27149/jin.git",
+  "author": "youyiqin <564151947@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "jin": "bin/jin.js"
+  },
+  "dependencies": {
+    "alphabetjs": "^0.1.4",
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^9.1.0",
+    "log-symbols": "^5.1.0",
+    "metalsmith": "^2.5.0",
+    "ora": "^6.1.2"
+  },
+  "type": "module"
+}
