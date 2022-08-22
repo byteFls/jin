@@ -30,5 +30,11 @@ export default function (projectName) {
       choices: ["vue3-ts", "vue3", "nuxt3-ts", "nuxt3", "react-ts", "react"],
       default: 0,
     },
+    {
+      name: "isAdmin",
+      message: "是否是后台项目",
+      type: "confirm",
+      default: true,
+    },
   ]);
 }

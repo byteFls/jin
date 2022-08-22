@@ -24,7 +24,11 @@ let projectName = program.args[0];
     loadingSpinner.start();
     const projectPath = `${process.cwd()}/${projectName}`;
     // 下载开始
-    await download(projectPath, projectInfo.info.branch);
+    await download(
+      projectPath,
+      projectInfo.info.branch,
+      projectInfo.info.isAdmin
+    );
     loadingSpinner.stop();
 
     // 生成文件

@@ -6,4 +6,4 @@ export const projectListOptions = [
   "react-ts",
   "react",
 ];
-export const SCAFFOlD_TEMPLATE_PREFIX = "Developer27149/vue3-scaffold";
+export const SCAFFOlD_TEMPLATE_PREFIX = "byteFls/scaffold-templates";
