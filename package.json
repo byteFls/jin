@@ -1,9 +1,10 @@
 {
   "name": "jin",
   "version": "1.0.0",
-  "description": "vue scaffold",
+  "description": "前端开发脚手架 - 境",
   "repository": "https://github.com/Developer27149/jin.git",
-  "author": "youyiqin <564151947@qq.com>",
+  "author": "youyiqin <rivenqinyy@gmail.com>",
+  "homepage": "https://github.com/byteFls/jin#readme",
   "license": "MIT",
   "bin": {
     "jin": "bin/jin.js"
@@ -19,5 +20,10 @@
     "metalsmith": "^2.5.0",
     "ora": "^6.1.2"
   },
-  "type": "module"
+  "type": "module",
+  "keywords": [
+    "npm",
+    "cli",
+    "frontend scaffold"
+  ]
 }
