@@ -28,7 +28,6 @@ export default async function (metadata, src, dest) {
         const meta = metalsmith.metadata();
         Object.keys(files).forEach((fileName) => {
           // 读取每一个文件名和内容、扩展名等等
-          console.log("\n", fileName, "\n");
           const contentString = files[fileName].contents.toString();
           // 将每一个文件中的模板变量替换成meta数据
           files[fileName].contents = Buffer.from(

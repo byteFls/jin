@@ -24,7 +24,6 @@ let projectName = program.args[0];
     loadingSpinner.start();
     const projectPath = `${process.cwd()}/${projectName}`;
     // 下载开始
-    console.log("下载中...");
     await download(projectPath, projectInfo.branch, projectInfo.isAdmin);
     loadingSpinner.stop();
 
