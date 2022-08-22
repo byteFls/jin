@@ -36,5 +36,10 @@ export default function (projectName) {
       type: "confirm",
       default: true,
     },
+    {
+      name: "port",
+      message: "开发端口",
+      default: "8081",
+    },
   ]);
 }
